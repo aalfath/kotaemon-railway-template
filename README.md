@@ -37,7 +37,7 @@ These variables are applied again on every deploy: if you change the key, base U
 
 ## Resources
 
-Kotaemon needs about **1 GB RAM**. On Railway's Free plan (0.5 GB per service) it is stopped while loading its libraries. It idles at about 520 MB and peaked at about 700 MB in our tests while indexing and answering. Larger documents need more.
+Kotaemon needs about **1 GB RAM**. It idles at about 520 MB and peaked at about 700 MB in our tests while indexing and answering. On Railway's Free plan (0.5 GB per service) it starts and can index small text files, but indexing a PDF runs it out of memory and Railway restarts it. Larger documents need more.
 
 ## What this build leaves out
 
