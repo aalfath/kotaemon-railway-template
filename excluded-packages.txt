@@ -1,0 +1,10 @@
+^torch==
+^torchvision==
+^triton==
+^nvidia-
+^sentence-transformers==
+^transformers==
+^docling
+^easyocr==
+^llama-cpp-python==
+^paddle
